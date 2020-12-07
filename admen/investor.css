@@ -1,0 +1,77 @@
+body{
+    background-color:yellow;
+    animation:backgroundImages 6s  infinite;
+}
+label{
+    color:yellow
+}
+form{
+    background-color: blue;
+    align-content: center;
+    padding:60px;
+    margin:50px;
+    width:500px;
+    height: 400px;
+    border-radius:20px;
+    position:relative;
+    left:310px;
+    top:30px;
+}
+/*changing  background images*/
+@keyframes backgroundImages
+{
+    from{background-image:url("w2.png");}
+    to{background-image:url("w3.png");background-image:url("w5.png");}
+}
+form:hover{
+background-color: red;
+}
+input.submit{
+    padding:20px;
+    width:280px;
+    position:relative;
+    left:80px;
+    color:blue;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#Retrieve_account{
+    display:none;
+}
+#account{
+    display:none;
+}
+button{
+    padding:20px;
+    width:280px;
+    position:relative;
+    left:80px;
+    color:blue;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+button:hover{
+    background-color: blue;
+    color:yellow;
+}
+input{
+    margin:20px;
+}
+#User_Password
+{
+    position:relative;
+    left:10px;
+}
+::placeholder{
+    color:red;
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+    color:blue;
+    position:relative;
+    left:560px;
+}

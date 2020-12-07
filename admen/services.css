@@ -1,0 +1,27 @@
+table{
+    background-color:yellow;
+    font-family: arial,sans-serif,serif;
+    border-collapse: collapse;
+    width:100%;
+
+}
+th{
+    color:yellow;
+    background-color:blue;
+    border:2px solid yellow;
+    text-align:left;
+    padding:8px;
+}
+td{
+    color:blue;
+    border:2px solid blue;
+    text-align:left;
+    padding:8px;
+}
+
+h5{
+    color:yellow;
+    background-color: blue;
+    text-align:center;
+    font-size: larger;
+}

@@ -1,0 +1,52 @@
+form{
+    background-color: blue;
+    align-content: center;
+    padding:60px;
+    margin:50px;
+    width:980px;
+    height: 600px;
+    color:yellow;
+    border-radius:20px;
+    position:relative;
+    left:100px;
+    top:30px;
+}
+/*changing  background images*/
+@keyframes backgroundImages
+{
+    from{background-image:url("w2.png");}
+    to{background-image:url("w3.png");background-image:url("w5.png");}
+}
+form:hover{
+background-color: red;
+}
+
+::placeholder{
+    color:red;
+}
+#Service_description{
+    width:667px;
+    height:348px;
+    color:blue;
+}
+
+input.submit{
+    padding:20px;
+    width:280px;
+    position:relative;
+    left:80px;
+    color:blue;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+input.submit:hover{
+    background-color: blue;
+    color:yellow;
+}
+
+body{
+    background-color:yellow;
+    animation:backgroundImages 6s  infinite;
+}
